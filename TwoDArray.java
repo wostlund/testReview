@@ -4,28 +4,8 @@ public class TwoDArray implements Comparable<TwoDArray>{
     
     public int compareTo(TwoDArray n){
 	return sum()-n.sum();
-    }
-
-    public TwoDArray(int r, int c){
-	rows=2;
-	cols=2;
-	data = new int[2][2];
-    }
-
-    public TwoDArray(){
-	this(2, 2);
-    }
-
-    public int max(){
-	int ans=data[0][0];
-	for(int r=0; r<data.length; r++){
-	    for(int c=0; c<data[r].length; r++){
-		if(data[r][c]>ans){
-		    ans=data[r][c];
-		}
-	    }
-	}
-	return ans;
+    }dwefhyuigjf
+	hfrtyue43fghkdjvmx bnd ghrewyjfbra,dvsywlvrfd,ahjmfva,ejdzrs gv,gersd'
     }
 
     public  boolean isIncreasing(){
